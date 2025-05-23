@@ -1,0 +1,19 @@
+<odoo>
+    <record id="view_event_form_inherit_ticket_reservation" model="ir.ui.view">
+        <field name="name">event.form.inherit.ticket.reservation</field>
+        <field name="model">event.event</field>
+        <field name="inherit_id" ref="event.view_event_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='name']" position="after">
+                <field name="allow_ticket_reservation"/>
+            </xpath>
+            <xpath expr="//header" position="inside">
+                <button name="action_generate_event_tickets"
+                        string="Crear tiquets de producte"
+                        type="object"
+                        class="oe_highlight"
+                        />
+            </xpath>
+        </field>
+    </record>
+</odoo>

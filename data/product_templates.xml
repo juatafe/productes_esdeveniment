@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="product_template_paella" model="product.template">
+        <field name="name">Plat de paella</field>
+        <field name="default_code">PAELLA</field>
+        <field name="list_price">7.0</field>
+        <field name="type">service</field>
+        <field name="sale_ok">True</field>
+        <field name="image_1920" type="base64" file="/mnt/extra-addons/productes_esdeveniment/static/img/paella.jpg"/>
+    </record>
+    <record id="product_template_fideua" model="product.template">
+        <field name="name">Plat de fideuà</field>
+        <field name="default_code">FIDEUA</field>
+        <field name="list_price">7.0</field>
+        <field name="type">consu</field>
+        <field name="sale_ok">True</field>
+        <field name="image_1920" type="base64" file="/mnt/extra-addons/productes_esdeveniment/static/img/fideua.jpg"/>
+    </record>
+    <record id="product_template_fideua_carn" model="product.template">
+        <field name="name">Plat de fideuà de carn</field>
+        <field name="default_code">FIDEUA-CARN</field>
+        <field name="list_price">7.5</field>
+        <field name="type">consu</field>
+        <field name="sale_ok">True</field>
+        <field name="image_1920" type="base64" file="/mnt/extra-addons/productes_esdeveniment/static/img/fideua_carn.jpg"/>
+    </record>
+    <record id="product_template_arros_cubana" model="product.template">
+        <field name="name">Plat d'arròs a la cubana</field>
+        <field name="default_code">ARROS-CUBANA</field>
+        <field name="list_price">6.5</field>
+        <field name="type">consu</field>
+        <field name="sale_ok">True</field>
+        <field name="image_1920" type="base64" file="/mnt/extra-addons/productes_esdeveniment/static/img/cubana.jpg"/>
+    </record>
+    <record id="product_template_putxero" model="product.template">
+        <field name="name">Plat de putxero</field>
+        <field name="default_code">PUTXERO</field>
+        <field name="list_price">8.0</field>
+        <field name="type">consu</field>
+        <field name="sale_ok">True</field>
+        <field name="image_1920" type="base64" file="/mnt/extra-addons/productes_esdeveniment/static/img/putxero.jpg"/>
+    </record>
+    <record id="product_template_entrepa" model="product.template">
+        <field name="name">Entrepà</field>
+        <field name="default_code">ENTREPA</field>
+        <field name="list_price">4.0</field>
+        <field name="type">consu</field>
+        <field name="sale_ok">True</field>
+        <field name="image_1920" type="base64" file="/mnt/extra-addons/productes_esdeveniment/static/img/entrepa.jpg"/>
+    </record>
+    <record id="product_template_hamburguesa" model="product.template">
+        <field name="name">Hamburguesa completa</field>
+        <field name="default_code">HAMBURGUESA</field>
+        <field name="list_price">5.5</field>
+        <field name="type">consu</field>
+        <field name="sale_ok">True</field>
+        <field name="image_1920" type="base64" file="/mnt/extra-addons/productes_esdeveniment/static/img/hamburguesa.jpg"/>
+    </record>
+    <record id="product_template_sandvix" model="product.template">
+        <field name="name">Sàndvix</field>
+        <field name="default_code">SANDVIX</field>
+        <field name="list_price">4.5</field>
+        <field name="type">consu</field>
+        <field name="sale_ok">True</field>
+        <field name="image_1920" type="base64" file="/mnt/extra-addons/productes_esdeveniment/static/img/sandvix.jpg"/>
+    </record>
+    <record id="product_template_creilles" model="product.template">
+        <field name="name">Creïlles</field>
+        <field name="default_code">CREILLES</field>
+        <field name="list_price">3.0</field>
+        <field name="type">consu</field>
+        <field name="sale_ok">True</field>
+        <field name="image_1920" type="base64" file="/mnt/extra-addons/productes_esdeveniment/static/img/creilles.jpg"/>
+    </record>
+    <record id="product_template_arros_banda" model="product.template">
+        <field name="name">Plat d'arròs a banda</field>
+        <field name="default_code">ARROS-BANDA</field>
+        <field name="list_price">7.0</field>
+        <field name="type">consu</field>
+        <field name="sale_ok">True</field>
+        <field name="image_1920" type="base64" file="/mnt/extra-addons/productes_esdeveniment/static/img/arros_banda.jpg"/>
+    </record>
+    <record id="product_template_cadira" model="product.template">
+        <field name="name">Cadira</field>
+        <field name="default_code">CADIRA</field>
+        <field name="list_price">1.0</field>
+        <field name="type">consu</field>
+        <field name="sale_ok">True</field>
+        <field name="image_1920" type="base64" file="/mnt/extra-addons/productes_esdeveniment/static/img/cadira.jpg"/>
+    </record>
+</odoo>

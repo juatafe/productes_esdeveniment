@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_product_loader,access.product.loader,model_product_loader,,1,1,1,1
+access_ticket_reservation,access.ticket.reservation,model_product_ticket_reservation,,1,1,1,1
