@@ -1,0 +1,30 @@
+<odoo>
+  <record id="view_assign_event_category_wizard" model="ir.ui.view">
+    <field name="name">assign.event.category.wizard.form</field>
+    <field name="model">assign.event.category.wizard</field>
+    <field name="arch" type="xml">
+      <form string="Assignar categoria d’esdeveniment">
+  <sheet>
+    <group>
+      <field name="product_ids" widget="many2many_tags" readonly="1"/>
+    </group>
+  </sheet>
+  <footer>
+    <button name="action_assign_category"
+            type="object"
+            class="btn-primary"
+            string="Assignar categoria"/>
+    <button string="Cancel·la" class="btn-secondary" special="cancel"/>
+  </footer>
+</form>
+
+    </field>
+  </record>
+
+  <record id="action_assign_event_category_wizard" model="ir.actions.act_window">
+    <field name="name">Assignar categoria a productes</field>
+    <field name="res_model">assign.event.category.wizard</field>
+    <field name="view_mode">form</field>
+    <field name="target">new</field>
+  </record>
+</odoo>

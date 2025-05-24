@@ -1,0 +1,27 @@
+<odoo>
+  <record id="view_product_esdeveniment_price_tree" model="ir.ui.view">
+    <field name="name">product.esdeveniment.price.tree</field>
+    <field name="model">product.esdeveniment.price</field>
+    <field name="arch" type="xml">
+      <tree>
+        <field name="hour_start"/>
+        <field name="hour_end"/>
+        <field name="price"/>
+      </tree>
+    </field>
+  </record>
+
+  <record id="view_product_esdeveniment_price_form" model="ir.ui.view">
+    <field name="name">product.esdeveniment.price.form</field>
+    <field name="model">product.esdeveniment.price</field>
+    <field name="arch" type="xml">
+      <form>
+        <group>
+          <field name="hour_start"/>
+          <field name="hour_end"/>
+          <field name="price"/>
+        </group>
+      </form>
+    </field>
+  </record>
+</odoo>

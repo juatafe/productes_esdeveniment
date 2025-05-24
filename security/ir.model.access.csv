@@ -1,3 +1,6 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_product_loader,access.product.loader,model_product_loader,,1,1,1,1
-access_ticket_reservation,access.ticket.reservation,model_product_ticket_reservation,,1,1,1,1
+access_product_loader_admin,access.product.loader.admin,model_product_loader,base.group_system,1,1,1,1
+access_ticket_reservation_admin,access.ticket.reservation.admin,model_product_ticket_reservation,base.group_system,1,1,1,1
+access_product_price_user,access.product.price.user,model_product_esdeveniment_price,,1,0,0,0
+access_product_price_admin,access.product.price.admin,model_product_esdeveniment_price,base.group_system,1,1,1,1
+access_assign_event_category_wizard_user,assign.event.category.wizard user,model_assign_event_category_wizard,base.group_system,1,1,1,1
