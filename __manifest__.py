@@ -4,7 +4,7 @@
     'category': 'Sales',
     'summary': 'Plantilles i tiquets vinculats a esdeveniments',
     'depends': ['base','event', 'product', 'sale'],
-    'post_load_hook': 'post_load_hook',
+    #'post_load_hook': 'post_load_hook',
     'data': [
         'security/ir.model.access.csv',
         'views/event_views.xml',
