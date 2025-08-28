@@ -20,11 +20,7 @@ class ProductTemplate(models.Model):
 
     @api.model
     def assign_event_category_to_products(self):
-<<<<<<< HEAD
-        category = self.env.ref('productes_esdeveniment.product_category_event')
-=======
         category = self.env.ref('productes_esdeveniment.product_category_events')
->>>>>>> 4491c27 (Initial import (neteja menús, event_views off, hooks fora))
         products = self.search([('type', '=', 'service')])  # o sense condició si vols TOTS
         for product in products:
             product.categ_id = category
