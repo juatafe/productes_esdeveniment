@@ -9,12 +9,20 @@ class ProductLoader(models.TransientModel):
 
     @api.model
     def load_products(self):
+<<<<<<< HEAD
         path = get_module_resource('productes_esdeveniment', 'data', 'productes.json')
+=======
+        path = get_module_resource('productes_esdeveniment', 'static', 'json', 'productes.json')
+>>>>>>> 4491c27 (Initial import (neteja menús, event_views off, hooks fora))
         with open(path, 'r') as f:
             data = json.load(f)
 
         for item in data:
+<<<<<<< HEAD
             image_path = get_module_resource('productes_esdeveniment', 'data', 'images', item['image_file'])
+=======
+            image_path = get_module_resource('productes_esdeveniment', 'static', 'img', item['image_file'])
+>>>>>>> 4491c27 (Initial import (neteja menús, event_views off, hooks fora))
             with open(image_path, 'rb') as img:
                 image_data = base64.b64encode(img.read())
 

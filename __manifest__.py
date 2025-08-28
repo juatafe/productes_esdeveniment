@@ -7,14 +7,22 @@
     #'post_load_hook': 'post_load_hook',
     'data': [
         'security/ir.model.access.csv',
+<<<<<<< HEAD
         'views/event_views.xml',
         'views/product_views.xml',
         'views/menu_views.xml',
+=======
+        #'views/event_views.xml',
+        'views/product_views.xml',
+>>>>>>> 4491c27 (Initial import (neteja menús, event_views off, hooks fora))
         'data/product_categories.xml',
         'data/product_templates.xml',
         'views/product_price_view.xml',
         'views/assign_event_category_wizard.xml',
+<<<<<<< HEAD
         'views/menu.xml',
+=======
+>>>>>>> 4491c27 (Initial import (neteja menús, event_views off, hooks fora))
         'views/server_actions.xml',
     ],
     'installable': True,
